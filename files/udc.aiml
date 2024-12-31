@@ -1,7 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
+
   <category>
-    <pattern>*</pattern>
-    <template>I have no answer for that.</template>
+    <pattern>hello</pattern>
+    <patter>hi</patter>
+    <template>
+      Hello! I am a chatbot designed to help narrow down potential computing careers you might be interested in! When communicating with me, 
+      please try to only respond via the bolded terms, otherwise I might not recognize what you're saying. To start, please tell me your name. 
+      Start with like this, <b>my name is...</b></template>
   </category>
+  
+  <category>
+      <pattern>*</pattern>
+      <template>I have no answer for that, you can reset the chatbot by either saying My name is....</template>
+  </category>
+  
+  <category>
+      <pattern>my name is *</pattern>
+      <template>Hello <star/>! Let's see if I could try and narrow some computing jobs down. 
+          Do you prefer jobs involving:<br></br> <b>design</b> or <b>analysis?</b></template>
+  </category>
+  
+ <!-- branch off into design or analytical jobs-->
+  
+  <category>
+      <pattern>design</pattern>
+      <template>Design related jobs are fun! Are you more specifically more interested in designing either:<br></br> <b>software</b> or <b>an interface</b></template>
+  </category>
+  
+  <category>
+      <pattern>analysis</pattern>
+      <template>Analysis related jobs are a good choice. Do you prefer analyzing:<br></br> <b>data</b> or <b>cybersecurity</b></template>
+  </category>
+  
+  <!--design jobs-->
+  
+  <category>
+      <pattern>an interface</pattern>
+      <patter>interface</patter>
+      <template>Designing an interface requires a great deal of creativity in addition to programming knowledge!
+      Do you think you would prefer creating an interface for something made:<br></br> <b>online</b> or <b>in an application?</b></template>
+  </category>
+  
+  <category>
+      <pattern>an application</pattern>
+      <pattern>in an application</pattern>
+      <pattern>application</pattern>
+      <template>So you would like designing interfaces within an independent application! Sounds like to me you would be most interested in becoming a UI Designer (User-inferface)! 
+      Being a UI designer entails creating a human-friendly, readable interface for various applications. </template>
+  </category>
+  
+  
+  <category>
+      <pattern>online</pattern>
+      <template>So you would like designing an interface for a website. Sounds like you would be most interested in becoming a web designer!
+      Being a web designer use their creative skills to create attention grabbing, functional websites for companies!</template>
+  </category>
+ 
+ <!-- end response for software, data, and cybersecurity-->
+ 
+  <category>
+      <pattern>software</pattern>
+      <template>Given your interests in designing software, I think your best fitting career would be that of a software engineer!
+      That occupation involves the design, testing, and maintenance of applications to ensure that they are functional for public use!</template>
+  </category>
+  
+  <category>
+      <pattern>cybersecurity</pattern>
+      <template>Given your interests in analyzing aspects related to cybersecurity, you would probably enjoy being a cybersecurity analyst! That occupation
+      involves the analysis and implementation of security measures to protect company data from outside factors.</template>
+  </category>
+  
+  <category>
+      <pattern>data</pattern>
+      <template>Given your interests in analyzing data, I believe you would enjoy being a data analyst! That job involves the usage of strategies such as
+      surveys and web traffic to create datasets that could be analyzed for the benefit of a company!</template>
+  </category>
+  
+  
+  
 </aiml>
