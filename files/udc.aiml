@@ -43,13 +43,11 @@
   
   <category>
       <pattern>an interface</pattern>
-      <patter>interface</patter>
       <template>Designing an interface requires a great deal of creativity in addition to programming knowledge!
       Do you think you would prefer creating an interface for something made:<br></br> <b>online</b> or <b>in an application?</b></template>
   </category>
   <category>
       <pattern>interface</pattern>
-      <patter>interface</patter>
       <template>Designing an interface requires a great deal of creativity in addition to programming knowledge!
       Do you think you would prefer creating an interface for something made:<br></br> <b>online</b> or <b>in an application?</b></template>
   </category>
@@ -60,24 +58,28 @@
   <category>
       <pattern>an application</pattern>
       <template>So you would like designing interfaces within an independent application! Sounds like to me you would be most interested in becoming a UI Designer (User-inferface)! 
-      Being a UI designer entails creating a human-friendly, readable interface for various applications. </template>
+      Being a UI designer entails creating a human-friendly, readable interface for various applications. 
+      <a href="https://www.simplilearn.com/how-to-become-ui-ux-designer-article">Click here to learn more about becoming a UI UX Designer!</a></template>
   </category>
    <category>
       <pattern>application</pattern>
       <template>So you would like designing interfaces within an independent application! Sounds like to me you would be most interested in becoming a UI Designer (User-inferface)! 
-      Being a UI designer entails creating a human-friendly, readable interface for various applications. </template>
+      Being a UI designer entails creating a human-friendly, readable interface for various applications. 
+      <a href="https://www.simplilearn.com/how-to-become-ui-ux-designer-article">Click here to learn more about becoming a UI UX Designer!</a></template>
   </category>
    <category>
       <pattern>in an application</pattern>
       <template>So you would like designing interfaces within an independent application! Sounds like to me you would be most interested in becoming a UI Designer (User-inferface)! 
-      Being a UI designer entails creating a human-friendly, readable interface for various applications. </template>
+      Being a UI designer entails creating a human-friendly, readable interface for various applications. 
+      <a href="https://www.simplilearn.com/how-to-become-ui-ux-designer-article">Click here to learn more about becoming a UI UX Designer!</a></template>
   </category>
   
   
   <category>
       <pattern>online</pattern>
       <template>So you would like designing an interface for a website. Sounds like you would be most interested in becoming a web designer!
-      Being a web designer use their creative skills to create attention grabbing, functional websites for companies!</template>
+      Being a web designer use their creative skills to create attention grabbing, functional websites for companies!
+      <a href="https://www.simplilearn.com/how-to-become-complete-web-development-professional-article">Click here to learn more about web development!</a></template>
   </category>
  
  <!-- end response for software, data, and cybersecurity-->
@@ -85,19 +87,22 @@
   <category>
       <pattern>software</pattern>
       <template>Given your interests in designing software, I think your best fitting career would be that of a software engineer!
-      That occupation involves the design, testing, and maintenance of applications to ensure that they are functional for public use!</template>
+      That occupation involves the design, testing, and maintenance of applications to ensure that they are functional for public use!
+      <a href="https://www.simplilearn.com/what-is-a-software-developer-article">Click here to learn more about software development!</a></template>
   </category>
   
   <category>
       <pattern>cybersecurity</pattern>
       <template>Given your interests in analyzing aspects related to cybersecurity, you would probably enjoy being a cybersecurity analyst! That occupation
-      involves the analysis and implementation of security measures to protect company data from outside factors.</template>
+      involves the analysis and implementation of security measures to protect company data from outside factors.
+      <a href="https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-career-path">Click here to learn more about cybersecurity!</a></template>
   </category>
   
   <category>
       <pattern>data</pattern>
       <template>Given your interests in analyzing data, I believe you would enjoy being a data analyst! That job involves the usage of strategies such as
-      surveys and web traffic to create datasets that could be analyzed for the benefit of a company!</template>
+      surveys and web traffic to create datasets that could be analyzed for the benefit of a company! 
+      <a href="https://www.simplilearn.com/data-analyst-job-description-article">Click here to learn more about data analysts!</a></template>
   </category>
   
   
