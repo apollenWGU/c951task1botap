@@ -3,7 +3,13 @@
 
   <category>
     <pattern>hello</pattern>
-    <patter>hi</patter>
+    <template>
+      Hello! I am a chatbot designed to help narrow down potential computing careers you might be interested in! When communicating with me, 
+      please try to only respond via the bolded terms, otherwise I might not recognize what you're saying. To start, please tell me your name. 
+      Start with like this, <b>my name is...</b></template>
+  </category>
+  <category>
+    <pattern>hi</pattern>
     <template>
       Hello! I am a chatbot designed to help narrow down potential computing careers you might be interested in! When communicating with me, 
       please try to only respond via the bolded terms, otherwise I might not recognize what you're saying. To start, please tell me your name. 
@@ -33,7 +39,7 @@
       <template>Analysis related jobs are a good choice. Do you prefer analyzing:<br></br> <b>data</b> or <b>cybersecurity</b></template>
   </category>
   
-  <!--design jobs-->
+  <!--covers all additional responses for interface-->
   
   <category>
       <pattern>an interface</pattern>
@@ -41,11 +47,28 @@
       <template>Designing an interface requires a great deal of creativity in addition to programming knowledge!
       Do you think you would prefer creating an interface for something made:<br></br> <b>online</b> or <b>in an application?</b></template>
   </category>
+  <category>
+      <pattern>interface</pattern>
+      <patter>interface</patter>
+      <template>Designing an interface requires a great deal of creativity in addition to programming knowledge!
+      Do you think you would prefer creating an interface for something made:<br></br> <b>online</b> or <b>in an application?</b></template>
+  </category>
+  
+  
+  <!-- responses for application-->
   
   <category>
       <pattern>an application</pattern>
-      <pattern>in an application</pattern>
+      <template>So you would like designing interfaces within an independent application! Sounds like to me you would be most interested in becoming a UI Designer (User-inferface)! 
+      Being a UI designer entails creating a human-friendly, readable interface for various applications. </template>
+  </category>
+   <category>
       <pattern>application</pattern>
+      <template>So you would like designing interfaces within an independent application! Sounds like to me you would be most interested in becoming a UI Designer (User-inferface)! 
+      Being a UI designer entails creating a human-friendly, readable interface for various applications. </template>
+  </category>
+   <category>
+      <pattern>in an application</pattern>
       <template>So you would like designing interfaces within an independent application! Sounds like to me you would be most interested in becoming a UI Designer (User-inferface)! 
       Being a UI designer entails creating a human-friendly, readable interface for various applications. </template>
   </category>
